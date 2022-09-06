@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">  
+    <link rel="icon" type="imagem/png" href="./img/logo.svg" />
+    <title>Destinos</title>
+
+
+</head>
+
+<body>
+    <!-- Menu usando Bootstrap -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./img/logo.svg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./destinos.html">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=./promocoes.html>Promoções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html">Contato</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Para onde vamos?" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <section class="categoria">
+            <ul>
+                <li onclick="exibir_categorias('internacional')">INTERNACIONAL [8]</li>
+                <li onclick="exibir_categorias('nacional')">NACIONAL [4]</li>
+            </ul>
+        </section>
+
+        <!-- Destinos -->
+
+        <section class="destinos">
+            <div class="caixa_destinos" id="nacional" style="display: block;">
+                <img src="./img/trindade.png">
+                <br>
+                <p class="cidades">Trindade</p>
+                <hr>
+                <p class="descricao">Trindade é uma região litorânea charmosa conhecida pelas longas praia arenosas.</p>
+                <p class="preco">R$ 150,00 </p>
+            </div>
+
+            <div class="caixa_destinos"id="internacional" style="display: block;">
+                <img src="./img/buenos-aires.png">
+                <br>
+                <p class="cidades">Buenos Aires</p>
+                <hr>
+                <p class="descricao">Buenos Aires se renova a cada dia e quem se apaixona pelo lugar faz questão de
+                    voltar outras veze.</p>
+                <p class="preco">R$ 950,00</p>
+            </div>
+
+            <div class="caixa_destinos"id="internacional"style="display: block;">
+                <img src="./img/california.png">
+                <br>
+                <p class="cidades">California</p>
+                <hr>
+                <p class="descricao">A Califórnia é um dos estados e destinos mais icônicos dos Estados Unidos.</p>
+                <p class="preco">R$ 3.400</p>
+            </div>
+
+            <div class="caixa_destinos" id="nacional"style="display: block;">
+                <img src="./img/campos_do_jordao.png">
+                <br>
+                <p class="cidades">Campos de Jordão</p>
+                <hr>
+                <p class="descricao">É uma experiência agradável e um destino que sempre tem
+                    novas atividades!</p>
+                <p class="preco">R$ 242,50</p>
+            </div>
+
+            <div class="caixa_destinos"id="internacional"style="display: block;">
+                <img src="./img/caribe.png">
+                <br>
+                <p class="cidades">Caribe</p>
+                <hr>
+                <p class="descricao">Diversão ou momentos de relaxamento, a região
+                    certamente é a melhor opção.</p>
+                <p class="preco">R$ 2.850</p>
+            </div>
+
+            <div class="caixa_destinos"id="internacional"style="display: block;">
+                <img src="./img/disney.png">
+                <br>
+                <p class="cidades">Disney</p>
+                <hr>
+                <p class="descricao">Orlando oferece um mundo mágico maravilhoso apenas aguardando para ser explorado.
+                </p>
+                <p class="preco">R$ 4.550</p>
+            </div>
+
+            <div class="caixa_destinos"id="internacional"style="display: block;">
+                <img src="./img/espanha.png">
+                <br>
+                <p class="cidades">Espanha</p>
+                <hr>
+                <p class="descricao">O país é um dos mais plurais da Europa, e tem atrações para todos os gostos e
+                    bolsos.</p>
+                <p class="preco">R$ 3.700</p>
+            </div>
+
+            <div class="caixa_destinos" id="nacional"style="display: block;">
+                <img src="./img/gramado.png">
+                <br>
+                <p class="cidades">Gramado</p>
+                <hr>
+                <p class="descricao">Pontos turísticos que estão
+                    sempre à espera do visitante em qualquer período do ano.</p>
+                <p class="preco">R$ 620,50</p>
+            </div>
+
+            <div class="caixa_destinos"id="internacional"style="display: block;">
+                <img src="./img/inglaterra.png">
+                <br>
+                <p class="cidades">Inglaterra</p>
+                <hr>
+                <p class="descricao">Uma experiência cultural transformadora que te transporta através do tempo. </p>
+                <p class="preco">R$ 8.600</p>
+            </div>
+
+            <div class="caixa_destinos"id="internacional" style="display: block;">
+                <img src="./img/italia.png">
+                <br>
+                <p class="cidades">Itália</p>
+                <hr>
+                <p class="descricao">Itália é muito romântica para um casal e uma excelente pedida para um
+                    grupo de amigos.</p>
+                <p class="preco">R$ 6.650</p>
+            </div>
+
+            <div class="caixa_destinos" id="nacional"style="display: block;">
+                <img src="./img/jericoacoara.png">
+                <br>
+                <p class="cidades">Jericoacoara</p>
+                <hr>
+                <p class="descricao">O destino nordestino que se tornou sensação entre os viajantes nas
+                    últimas décadas.</p>
+                <p class="preco">R$ 780,50</p>
+            </div>
+
+            <div class="caixa_destinos"id="internacional"style="display: block;">
+                <img src="./img/nova_york.png">
+                <br>
+                <p class="cidades">Nova York</p>
+                <hr>
+                <p class="descricao">A cidade possui inesgotáveis atrações, quase
+                    infinitas, para todos os gostos.</p>
+                <p class="preco">R$ 7.450</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="footer">
+            <p>© 2022 Go Travel</p>
+            <p>Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="./JavaScript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

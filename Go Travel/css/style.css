@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+
+
+/* Estilização padrão*/
+
+body {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 1.1rem;
+  font-family: 'Exo 2', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: #D2D2FE;
+  width: 100%;
+
+}
+
+.navbar img {
+  width: 120px;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  background-color: #D2D2FE;
+  position: sticky;
+}
+
+.footer {
+  margin-top: 12px;
+
+}
+
+.footer p {
+  font-size: 10px;
+}
+
+
+
+/* Estilização home */
+
+.introducao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  padding: 20px, 10px, 20px, 10px;
+  margin: 25px;
+}
+
+.textoIntro h1 {
+  font-size: 36px;
+  margin-bottom: 24px;
+  color: #dcc601;
+  text-align: center;
+  padding: auto;
+}
+
+.textoIntro p {
+  font-size: 16px;
+  color: #05578a;
+  text-align: center;
+  padding: 20px;
+}
+
+.imagemIntro {
+  padding: 15px;
+}
+
+.imagemIntro>img {
+  max-width: 300px;
+  min-width: auto;
+  margin: 15px;
+  text-align: center;
+}
+
+.textoIntro {
+  min-height: auto;
+  min-width: auto;
+}
+
+.conteudo1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.conteudo1 h2 {
+  font-size: 24px;
+  margin-bottom: 18px;
+  color: #dcc601;
+  text-align: center;
+  padding: auto;
+
+}
+
+.conteudo1 p {
+  font-size: 16px;
+  margin-bottom: 18px;
+  color: #05578a;
+  text-align: center;
+  padding: auto;
+
+}
+
+.conteudo1 hr {
+  color: #05578a;
+}
+
+.imgPromocoes {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  background-color: #fef7b5;
+}
+
+.imgPromocoes img {
+  max-width: 300px;
+  min-width: auto;
+  margin: 15px;
+  height: 150px;
+  width: 300px;
+}
+
+.bnt {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.bnt button {
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  background-color: #dcc601;
+}
+
+.bnt button a {
+  text-decoration: none;
+  color: #012b46;
+
+}
+
+
+/* Estilização Destinos*/
+.caixa_destinos:hover{
+  width: 300px;
+  height: 370px;
+  border-radius: 15px 15px 0px 0px;
+  background-color: #669fc334;
+}
+
+.categoria ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+  width: auto;
+  height: auto;
+}
+
+
+.categoria a {
+  text-decoration: none;
+  color: #012b46;
+  padding:10px;
+  margin: 20px;
+}
+
+
+.categoria li {
+  list-style: none;
+  position: relative;
+  float: left;
+  padding:10px;
+  display: block;
+}
+
+.destinos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.caixa_destinos {
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  height: 350px;
+}
+
+.caixa_destinos > img {
+  width: 250px;
+  height: 150px;
+  flex-direction: row ;
+  border: #05578a 3px solid;
+}
+
+
+.caixa_destinos hr {
+  width: 250px;
+}
+
+.cidades {
+  text-align: center;
+  color: #ec8e02;
+  margin-top: 5px;
+}
+
+.descricao {
+  font-size: 14px;
+  padding: 5px;
+  margin: 15px;
+  text-align: center;
+
+}
+
+.preco {
+  color: #05578a;
+  text-align: center;
+}
+
+
+/* Estilização promocao */
+
+.background {
+  border-radius: 30px;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  margin: 20px;
+}
+
+.background h2 {
+  color: #ffe600;
+  text-align: center;
+}
+
+.background p {
+  color: #012b46;
+  text-align: center;
+}
+
+.Promocoes {
+  margin: 20px;
+  height: auto;
+  border: #05578a 2px solid;
+  background-color: #D2D2FE;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.Pro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Pro img {
+  max-width: 300px;
+  min-width: auto;
+  margin: 10px;
+  height: 150px;
+  width: 300px;
+  border: #012b46 1px solid;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.descricaoP span {
+  text-decoration: line-through;
+  color: red;
+}
+
+.precoP span {
+  color: rgb(2, 135, 44);
+  margin: 0;
+}
+
+.Promocoes button {
+  margin-bottom: 10px;
+  background-color: #dcc601;
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+}
+
+.Promocoes button a {
+  text-decoration: none;
+  color: #012b46;
+}
+
+.ConteudoPro button :hover {
+  border: #012b46 1px solid;
+}
+
+.cidadesPromocao {
+  font-size: 24px;
+}
+
+
+/* Contato*/
+ 
+
+.form li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.fundo h2 {
+  color: #012b46;
+}
+
+.form>li>label,
+.form li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+  color: #012b46;
+}
+
+.form>li>label+* {
+  flex: 1 0 200px;
+}
+
+.form li button {
+  margin-top: 10px;
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: #dcc601;
+  color: #012b46;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 5px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.form li button a {
+  text-decoration: none;
+  list-style: none;
+  color: #012b46;
+}
+
+.fundo {
+  display: flex;
+  position: static;
+  flex-wrap: wrap;
+  border-radius: 30px;
+  justify-content: center;
+  width: 600px;
+  padding: 10px;
+  background-color: #0148743c;
+}
+
+
+
+
+/* tela aprovação*/
+
+.telaA {
+  width: 800px;
+  height: 400px;
+  margin: 20px;
+  justify-content: center;
+  flex-direction: column;
+  color: #012b46;
+}
+
+h2 {
+  color: #dcc601;
+}
+
+.telaA button {
+  justify-content: center;
+  background-color: #dcc601;
+  border: none;
+  color: #012b46;
+  border-radius: 5px;
+  margin: 0;
+  width: 200px;
+  height: 60px;
+}
+
+.telaA button a {
+  text-decoration: none;
+  list-style: none;
+  color: #012b46;
+}

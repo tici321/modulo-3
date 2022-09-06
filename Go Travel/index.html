@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="imagem/png" href="./img/logo.svg" />
+    <title>Home</title>
+
+
+</head>
+
+<body>
+    <!-- Menu usando Bootstrap -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo.svg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./destinos.html">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./promocoes.html">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contato.html">Contato</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Para onde vamos?"
+                            aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Introdução -->
+        <section class="introducao">
+            <div class="textoIntro">
+                <h1>A viagem dos seus sonhos começa aqui!!</h1>
+                <p>Conheça destinos de praia, conecte-se com a natureza,<br> mergulhe em novas culturas e divirta-se em
+                    grandes cidades.</p>
+
+            </div>
+            <div class="imagemIntro"><img src="./img/introducao.svg"></div>
+        </section>
+
+        <br>
+        <br>
+
+        <!-- Conteúdo -->
+        <section class="conteudo1">
+            <div>
+                <h2>Confira nossas promoções</h2>
+                <hr>
+                <p>Se você ainda não definiu o seu destino, talvez te interesse ver a nossa seção de promoções.</p>
+            </div>
+            <div class="imgPromocoes">
+                <div>
+                    <img src="./img/beach_park_promocao.png">
+                    <p>Beach Park</p>
+                </div>
+                <div>
+                    <img src="./img/salinas-maceio_promocao.png">
+                    <p>Salinas Maragogi</p>
+                </div>
+                <div>
+                    <img src="./img/canada.png">
+                    <p>Canadá</p>
+                </div>
+            </div>
+            <div class="bnt">
+                <button><a href="./promocoes.html">Ver promoções</a></button>
+            </div>
+        </section>
+
+
+        <!---->
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="footer">
+            <p>© 2022 Go Travel</p>
+            <p>Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
